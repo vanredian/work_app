@@ -1,0 +1,69 @@
+body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: auto auto;
+            gap: 20px;
+            justify-items: center;
+            width: auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .input-button-group {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+        }
+
+        input {
+            flex-grow: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        #createJoinBtn {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #createJoinBtn:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        #syncBtn {
+            background-color: #008CBA;
+            color: white;
+        }
+
+        #syncBtn:hover {
+            background-color: #007bb5;
+            transform: scale(1.05);
+        }
+
+        .sync-button-container {
+            width: 100%;
+        }
